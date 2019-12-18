@@ -1,13 +1,29 @@
+body
+{
+	background-image: url(images/space.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top-right;
+	background-color: black;
+}
 p
 {
+	font-size: 14px;
 	color: blue; /* Commentaires */
 	font-weight: bold;
+
 }
 h1
 {
+	/*background-color: maroon;*/
+	font-family: impact;
+	font-size: 40px;
+	font-weight: bold;
 	color: green;
 }
 .bcp
 {
+	font-style: italic;
+	text-decoration: underline;
 	color: red;
 }
