@@ -91,7 +91,7 @@ code :a img { border: none; }
 #navigation li a{
 	padding-right: 5%;
 	color: gray;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	text-decoration: none;
 }
 
@@ -123,6 +123,15 @@ code :a img { border: none; }
     margin-top: 0px;
     background-image: url("images/noir.png");
 }
+.bandeau img{
+	opacity: 0.6;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.bandeau img:hover{
+	opacity: 1;
+}
 
 
 #gros{
@@ -132,29 +141,29 @@ code :a img { border: none; }
 	
 	width: 64.4%;
 	height: 703px;
-	border: 1px solid black;
+
 }
 
 #petit{
 	width: 35%;
 	height: 700px;
 	display: inline-block;
-	border: 1px solid black;
+	
 
 	
 }
 #logo{
 	display: inline-block;
 	width: 20%;
-
 	vertical-align: top;
+
 }
 
 nav {
 	display: inline-block;
 	vertical-align: bottom;
 	margin-left: 20px;
-	width: 60%;
+	width: 49%;
 	height: 63px;
 
 }
@@ -162,10 +171,94 @@ nav {
 #reseaux{
 	display: inline-block;
 	vertical-align: bottom;
-	
 	height: 68px;
+	width: 25%;
 }
 #reseaux div{
 	display: inline;
 	padding: 10px;
+}
+
+.shop{
+	padding-top: 70px;
+	display: inline-block;
+
+
+
+}
+
+.shop a{
+	vertical-align: top;
+}
+
+
+.orange1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    margin-top: 0px;
+
+    background-image: url("images/orange.png");
+}
+
+footer h1{
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-family: impact;
+}
+
+#nav2{
+	display: inline-block;
+	
+	width: 50%;
+
+}
+#navigation2{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation2 li {
+	display: inline;
+}
+
+#navigation2 li a{
+	padding-right: 7%;
+	padding-left: 7%;
+	color: gray;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+#navigation2 li a:hover{
+	color: #DA5B32;
+}
+.up{
+	display: inline-block;
+	width: 49%;
+	
+}
+.up a{
+
+	color: gray;
+	text-decoration: none;
+	font-size: 1em
+
+}
+
+.up a:hover{
+	color: #DA5B32;
+}
+
+footer p{
+	color: gray;
+	margin: 0;
+	padding-top: 50px;
+	padding-left: 20px;
 }
