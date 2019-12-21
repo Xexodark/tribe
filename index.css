@@ -1,0 +1,171 @@
+body{
+	background-color: #22334F;
+}
+
+#twitch a {
+	display: inline-block;
+	background: url("images/twitch_hover.png") no-repeat;
+	background-size: 30px 30px;
+
+}
+
+
+#twitch a:hover img {
+	visibility: hidden;
+}
+
+#discord a {
+	display: inline-block;
+	background: url("images/discord_hover.png") no-repeat;
+	background-size: 30px 30px;
+
+}
+
+
+#discord a:hover img {
+	visibility: hidden;
+}
+
+#youtube a {
+	display: inline-block;
+	background: url("images/ytb_hover.png") no-repeat;
+	background-size: 30px 30px;
+
+}
+
+
+#youtube a:hover img {
+	visibility: hidden;
+}
+
+#instagram a {
+	display: inline-block;
+	background: url("images/insta_hover.png") no-repeat;
+	background-size: 30px 30px;
+
+}
+
+
+#instagram a:hover img {
+	visibility: hidden;
+}
+
+#twitter a {
+	display: inline-block;
+	background: url("images/twitter_hover.png") no-repeat;
+	background-size: 30px 30px;
+
+}
+
+
+#twitter a:hover img {
+	visibility: hidden;
+}
+
+#facebook a {
+	display: inline-block;
+	background: url("images/facebook_hover.png") no-repeat;
+	background-size: 30px 30px;
+
+}
+
+
+#facebook a:hover img {
+	visibility: hidden;
+}
+
+
+code :a img { border: none; }
+
+#navigation{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#navigation li {
+	display: inline;
+}
+
+#navigation li a{
+	padding-right: 5%;
+	color: gray;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+#navigation li a:hover{
+	color: #DA5B32;
+}
+
+
+.orange:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    margin-top: 0px;
+    background-image: url("images/orange.png");
+}
+
+
+
+.bandeau {
+	content: "";
+    position: absolute;
+    color: #DA5B32;
+
+    width: 100%;
+    height: 80px;
+    left: 0;
+    margin-top: 0px;
+    background-image: url("images/noir.png");
+}
+
+
+#gros{
+	display: inline-block;
+
+	vertical-align: top;
+	
+	width: 64.4%;
+	height: 703px;
+	border: 1px solid black;
+}
+
+#petit{
+	width: 35%;
+	height: 700px;
+	display: inline-block;
+	border: 1px solid black;
+
+	
+}
+#logo{
+	display: inline-block;
+	width: 20%;
+
+	vertical-align: top;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 20px;
+	width: 60%;
+	height: 63px;
+
+}
+
+#reseaux{
+	display: inline-block;
+	vertical-align: bottom;
+	
+	height: 68px;
+}
+#reseaux div{
+	display: inline;
+	padding: 10px;
+}
