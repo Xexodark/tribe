@@ -1,5 +1,5 @@
 body{
-	background-color: #22334F;
+	background-color: black;
 }
 
 #twitch a {
@@ -85,13 +85,17 @@ code :a img { border: none; }
 
 
 #navigation li {
+
 	display: inline;
+
 }
 
 #navigation li a{
+
 	padding-right: 5%;
-	color: gray;
-	font-size: 1.5em;
+	padding-left: 5%;
+	color: silver;
+	font-size: 1.7em;
 	text-decoration: none;
 }
 
@@ -161,10 +165,12 @@ code :a img { border: none; }
 
 nav {
 	display: inline-block;
+	text-align: center;
 	vertical-align: bottom;
 	margin-left: 20px;
 	width: 49%;
 	height: 63px;
+	
 
 }
 
@@ -261,4 +267,12 @@ footer p{
 	margin: 0;
 	padding-top: 50px;
 	padding-left: 20px;
+}
+
+.dev {
+	text-align: center;
+	color: white;
+	padding: 40px;
+	padding-bottom: 27%;
+	font-size: 3em;
 }
